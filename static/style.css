@@ -1,0 +1,44 @@
+body {
+  align-items: center;
+  background-image: linear-gradient(to bottom right, YellowGreen,MintCream,YellowGreen);
+  background-size:100% 200%;
+  background-repeat: no-repeat;
+  background-position: center-bottom;
+  justify-content: center;
+  height: 50vh;
+}
+
+h1 {
+ text-align: center;
+ text-transform: uppercase;
+ color: #006400;
+ letter-spacing: 3px;
+ font-size:100px;
+ text-shadow: 2px 2px black;
+ border-bottom-style: groove;
+ border-bottom-color: #006400;
+ border-bottom-width: 7px;
+
+}
+
+.intro{
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 400px;
+  width: 75%;
+   
+
+  text-align:center; 
+  font-family: "Verdana";
+  font-size:20px;
+  text-indent: 50px;
+  letter-spacing: 3px;
+  color:black;
+  
+  vertical-align: baseline;
+
+  position:absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
