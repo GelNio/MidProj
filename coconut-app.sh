@@ -14,11 +14,10 @@ echo "RUN pip install flask" >> tempdir/Dockerfile
 echo "COPY  ./static /home/myapp/static/" >> tempdir/Dockerfile
 echo "COPY  ./templates /home/myapp/templates/" >> tempdir/Dockerfile
 echo "COPY  coconut.py /home/myapp/" >> tempdir/Dockerfile
-echo "COPY  coconut.png /home/myapp/" >> tempdir/Dockerfile
 echo "EXPOSE 8080" >> tempdir/Dockerfile
 echo "CMD python3 /home/myapp/coconut.py" >> tempdir/Dockerfile
 
 cd tempdir
 docker build -t coconutapp .
 
-docker run -t -d -p 8080:8080 --name coconutrunning coconutapp
+docker run -t -d -p 8080:8080 --name coconutapprunning coconutapp
